@@ -77,6 +77,7 @@ class _SelectCityScreenState extends State<SelectCityScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const SizedBox(height: 10,),
             /// *** Popular Cities Title *** ///
             Text(
               "Popular Cities",
